@@ -82,7 +82,7 @@ a:hover::before {
         transform: scaleY(1);  
     }
 ```
-Aqui fiz de uma maneira resumida, mas não vale esquecer que no ```::hover``` se vão todas as caracteristicas do objeto. Tanto as que definem quanto as que queremos modificar com a ```:pseudo-classe``` e os ```::pseudo-elementos```
+<p align="center">Aqui fiz de uma maneira resumida, mas não vale esquecer que no ```::hover``` se vão todas as caracteristicas do objeto. Tanto as que definem quanto as que queremos modificar com a ```:pseudo-classe``` e os ```::pseudo-elementos```<p>
 
 Por último mas não menos importante:
 
