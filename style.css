@@ -156,6 +156,7 @@
         width: 100%;
         height: 2px;
         background: #3F3D56;
+        opacity: 0.9;
         /* min-height: 50px; */
         padding: 10px 50px;
         /* display: flex;
