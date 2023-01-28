@@ -89,3 +89,13 @@ Por último mas não menos importante:
 As ```nav-bars```. 
 
 As mais simples até então. Somente pseudo-elemento de ```::hover``` e uma transição.
+```css
+.footer-nav a {
+        text-decoration: none;
+        color: #3F3D56;
+        transition: .3s;
+    }
+    .footer-nav a:hover {
+        color: #EE24FF;
+    }
+```
