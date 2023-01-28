@@ -1,6 +1,10 @@
 <h1 align="center"> Desafio intermediário - Recriando layout </h1>
 <div class="video">
-https://user-images.githubusercontent.com/75433659/215268377-2260f0df-bdcd-4eef-a380-6c0e7db3f3ce.mp4
+
+
+https://user-images.githubusercontent.com/75433659/215268418-69dbc28b-4a2a-4bf9-9dfa-7e05a4ff81c0.mp4
+
+
 </div>
 
 <div class="section">
