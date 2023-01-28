@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    :root {
+        --mainColor: #EE24FF;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 790px;
+        text-align: center;
+        /* min-height: 100vh; */
+    }
+
+    section {
+        width: 626px;
+        margin: auto;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 64px 0 32px;
+    }
+
+    h1 {
+        font-family: 'Dosis';
+        font-size: 2em;
+        font-weight: 500;
+        color: #3F3D56;
+        margin: 32px 0 16px
+    }
+
+    
+    .prp a {
+        /* font-weight: 700; */
+        color: #EE24FF;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .prp a::before {
+        background: #EE24FF;
+        content: "";
+        inset: 0;
+        position: absolute;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform .3s ease-in-out;
+        z-index: -1;
+
+    }
+
+    .prp a:hover::before {
+        transform: scaleX(1);
+        
+    }
+
+    .prp a:hover {
+        color: #fff;
+        transition: .7s;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+
+    span {
+        font-weight: 700;
+        color: #3F3D56;
+    }
+
+    .content {
+        width: 37.5em;
+        display: grid;
+        gap: 32px;
+    }
+
+    .content, p {
+        color: #828282
+    }
+
+    .row-1 {
+        line-height: 22px;
+    }
+
+    .divider {
+        width: 28em;
+        height: 0;
+        border: 1px solid #ECEFF2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 64px auto 0;
+    }
+    
+    footer, li {
+        font-size: 1em;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        color: #3F3D56;
+        list-style-type: none;
+    }
+
+
+    .footer-nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 16px;
+    }
+
+    .footer-nav a {
+        text-decoration: none;
+        color: #3F3D56;
+        transition: .3s;
+    }
+
+    .footer-nav a + a {
+        margin-left: 42px;
+    }
+
+    .footer-nav a:hover {
+        color: #EE24FF;
+
+    }
+
+                        /* footer estático */
+
+    /* .footer-wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100% ;
+        height: 100px;
+        background-image: url(./assets/wave.svg);
+        transform: scale(1, 0,8);
+    }
+     */
+                        /* footer estático */
+    
+                        /* png animado das ondas, mas acabou que nao ficou tao bom */
+                        /* puxei um pouquinho no figma o vector na parte de tras da 
+                        onda pra dar esse efeito de subida e nao tao estatica */
+    .waves {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #3F3D56;
+        /* min-height: 50px; */
+        padding: 10px 50px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .wave {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: url("./assets/Wave.png"); 
+        background-size: 1000px 100px;
+        /* border: 1px solid red; */
+    }
+
+    .wave#wave1 {
+        z-index: 800;
+        opacity: 0.7;
+        bottom: 0;
+        animation: waveAnimation 10s linear infinite;
+      }
+
+    .wave#wave2 {
+        z-index: 500;
+        opacity: 0.5;
+        bottom: 10px;
+        animation: waveAnimation_02 10s linear infinite;
+      }
+    .wave#wave3 {
+        z-index: 1000;
+        opacity: 0.3;
+        bottom: 0;
+        animation: waveAnimation 8s linear infinite;
+      }
+      
+    .wave#wave4 {
+        z-index: 999;
+        opacity: 0.4;
+        bottom: 20px;
+        animation: waveAnimation_02 8s linear infinite;
+      }
+
+      @keyframes waveAnimation {
+        0%{
+          background-position-x: 1000px; 
+        }
+        100%{
+          background-position-x: 0px; 
+        }
+      }
+      
+      @keyframes waveAnimation_02 {
+        0%{
+          background-position-x: 0px; 
+        }
+        100%{
+          background-position-x: 1000px; 
+        }
+      }
+      
