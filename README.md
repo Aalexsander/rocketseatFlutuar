@@ -17,16 +17,16 @@ Gostei muito da pegada do desafio de fazer sozinho juntando com oque aprendemos 
 
 Bom primeiramente eu espero que não tenha problemas eu ter gostado até demais de ficar mexendo no projeto e explorando no css. 
 
-De certo modo tenho uma pequena pequenininha experiência com o css pois ele sempre dispertou um grande interesse em mim no front-end. Então desde um bom tempo vejo sempre tutoriais e até videos pra matar o tempo sobre o assunto. Sobre <span class="span">semântica</span>, sobre <span class="span">responsividade</span>, ```displays:flex;``` e ```grid;```.
+De certo modo tenho uma pequena pequenininha experiência com o css pois ele sempre me despertou um grande interesse no front-end. Então desde um bom tempo vejo sempre tutoriais e até videos pra matar o tempo sobre o assunto. Sobre <span class="span">semântica</span>, sobre <span class="span">responsividade</span>, ```displays:flex;``` e ```grid;```.
 
 
-O que eu conseguia lembrar eu colocava e fazia do meu jeito. Claro, seguindo como as instruções. 
+O que eu conseguia lembrar eu colocava e fazia do meu jeito. Claro, seguido com as instruções. 
 
 Espero que não seja um problema pois acabo me levando no processo criativo e quero sempre experimentar algo ou adicionar na tela. 
 
 ## Log das mudanças e como afetam 🍵
 
-Queria deixa-la por último mas como pode perceber, se já acessou o site e tem consciencia de como é o arquivo figma. Já deve ter percebido que o ```footer``` está um pouco diferente.
+Queria deixa-la por último mas como pode perceber, se já acessou o site e tem consciência de como é o arquivo figma. Já deve ter percebido que o ```footer``` está um pouco diferente.
 
 No momento que eu bati o olho no figma eu sabia que eu ia fazer essa ondinha animada. Só não sabia como.
 Primeiro eu dupliquei, flipei horizontalmente, depois editei as pontas no vector para suavizar e aumentar os "níveis" da onda para que eu podesse usar:
